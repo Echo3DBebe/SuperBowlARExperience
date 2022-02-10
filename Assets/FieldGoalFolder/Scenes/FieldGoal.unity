@@ -284,14 +284,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261120423}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.878, y: 0.1799, z: -1.2915}
+  m_LocalRotation: {x: -0.09685748, y: -0.65438163, z: -0.08506529, w: 0.7450955}
+  m_LocalPosition: {x: -0.8787, y: 0.1799, z: -1.2971}
   m_LocalScale: {x: 0.000034198, y: 0.000034198, z: 0.000034198}
   m_Children:
   - {fileID: 857555817}
   m_Father: {fileID: 0}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -14.813001, y: -82.583, z: 0}
 --- !u!1 &282840810
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,10 +468,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ef7305fc701f284b910223723d1573d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  footballSpawn: {fileID: 0}
+  footballSpawn: {fileID: 261120424}
   football: {fileID: -1596836367450043870, guid: b15241dfed0ebe845a3fea4aba82b95d,
     type: 3}
-  footballSpeed: 10
+  footballSpeed: 150
 --- !u!4 &325439707
 Transform:
   m_ObjectHideFlags: 0
@@ -816,7 +816,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &857555817
 Transform:
   m_ObjectHideFlags: 0

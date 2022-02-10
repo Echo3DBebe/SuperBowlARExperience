@@ -17,7 +17,7 @@ public class LaunchFootball : MonoBehaviour
 
     private void Start()
     {
-        footballSpeed = 300f;
+      //  footballSpeed = 300f;
     }
 
     void Update()
