@@ -354,7 +354,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: cb19bae5966faff4fbce88567673c43d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.273
+  m_Volume: 0.581
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -461,13 +461,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261120423}
-  m_LocalRotation: {x: -0.08938842, y: -0.05270629, z: -0.029836424, w: 0.99415374}
+  m_LocalRotation: {x: -0.08731812, y: 0.010395584, z: -0.035440676, w: 0.9954957}
   m_LocalPosition: {x: -0, y: 0.018, z: -0.058}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 282840814}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -10.4210005, y: -5.8040004, z: -2.9080002}
+  m_LocalEulerAnglesHint: {x: -9.969001, y: 1.5640001, z: -4.214}
 --- !u!1 &282840810
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,9 +646,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   footballSpawn: {fileID: 261120424}
-  football: {fileID: 2417384753324146656, guid: 135921c43a540884bab008d5941a08f3,
+  football: {fileID: -1596836367450043870, guid: b15241dfed0ebe845a3fea4aba82b95d,
     type: 3}
-  footballSpeed: 150
+  footballSpeed: 50
 --- !u!4 &325439707
 Transform:
   m_ObjectHideFlags: 0

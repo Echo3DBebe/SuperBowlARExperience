@@ -7,7 +7,7 @@ public class Cheering : MonoBehaviour
     [SerializeField]
     private AudioSource cheeringSource;
 
-    void OnTriggerEnter(Collider otheR)
+    void OnTriggerEnter(Collider other)
     {
         cheeringSource.Play();
     }
