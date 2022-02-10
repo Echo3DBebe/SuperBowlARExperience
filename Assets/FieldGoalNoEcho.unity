@@ -648,7 +648,7 @@ MonoBehaviour:
   footballSpawn: {fileID: 261120424}
   football: {fileID: -1596836367450043870, guid: b15241dfed0ebe845a3fea4aba82b95d,
     type: 3}
-  footballSpeed: 50
+  footballSpeed: 25
 --- !u!4 &325439707
 Transform:
   m_ObjectHideFlags: 0
