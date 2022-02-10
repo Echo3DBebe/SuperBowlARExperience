@@ -314,7 +314,7 @@ GameObject:
   - component: {fileID: 1349425527}
   - component: {fileID: 1349425526}
   m_Layer: 0
-  m_Name: echoAR
+  m_Name: echo3D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

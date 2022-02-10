@@ -116,7 +116,7 @@ namespace GLTFast
 
         private void OnDestroy()
         {
-            // Disable destruction of rendered object on script deletion
+            // Disable destruction of rendered object on script deletion 
             // if(gLTFastInstance!=null) {
             //     gLTFastInstance.Destroy();
             //     gLTFastInstance=null;

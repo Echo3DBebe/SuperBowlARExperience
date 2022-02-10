@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6970338143313821952}
   - component: {fileID: 2782816026810004250}
   m_Layer: 0
-  m_Name: echo3D
+  m_Name: echoAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,4 +43,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbf1207ab2260994aa98cbfa9f61c3a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  APIKey: lingering-voice-1381
+  APIKey: <YOUR_API_KEY>
