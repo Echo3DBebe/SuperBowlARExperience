@@ -5,7 +5,7 @@ using UnityEngine;
 public class Cheering : MonoBehaviour
 {   
     [SerializeField]
-    private AudioSource cheeringSource;
+    public AudioSource cheeringSource;
 
     void OnTriggerEnter(Collider other)
     {

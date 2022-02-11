@@ -25,8 +25,10 @@ public class LaunchFootball : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         //if (Input.touchCount > 0)
         {
-            var newFootball = Instantiate(football, footballSpawn.position, footballSpawn.rotation);
-            newFootball.AddForce(footballSpawn.forward * footballSpeed);
+           // Instantiates a new football when input is given
+           // var newFootball = Instantiate(football, footballSpawn.position, footballSpawn.rotation);
+
+            football.AddForce(footballSpawn.forward * footballSpeed);
 
             print("Touchdown!");
         }

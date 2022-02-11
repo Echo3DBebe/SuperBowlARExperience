@@ -12,6 +12,8 @@ using UnityEngine;
 
 public class CustomBehaviour : MonoBehaviour
 {
+    Rigidbody rb;
+
     [HideInInspector]
     public Entry entry;
 
@@ -20,15 +22,14 @@ public class CustomBehaviour : MonoBehaviour
     /// Queries the database and names the object based on the result.
     /// </summary>
 
-    // Use this for initialization
     void Start()
     {
 
         // Add RemoteTransformations script to object and set its entry as long as this object is not named "Football.glb"
-        if(this.gameObject.name != "football.FBX")
-         {
+        // if (this.gameObject.name != "football-wilson.glb")
+        // { 
             this.gameObject.AddComponent<RemoteTransformations>().entry = entry;
-         }
+        // } 
 
         // Query additional data to get the name
         string value = "";
@@ -39,12 +40,14 @@ public class CustomBehaviour : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (this.gameObject.name != "football.FBX" && this.gameObject.GetComponent<RemoteTransformations>().enabled == true)
+       /* Removed TransformRotations from the imported projectile football
+        
+        * if (this.gameObject.name != "football-wilson.glb" && this.gameObject.GetComponent<RemoteTransformations>().enabled == true)
         {
             this.gameObject.AddComponent<RemoteTransformations>().enabled = false;
-        }
+            
+        } */ 
     }
 }
