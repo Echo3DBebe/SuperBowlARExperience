@@ -15,9 +15,10 @@ public class LaunchFootball : MonoBehaviour
 
     private Touch tapToThrow;
 
-    private void Start()
+
+    void Start()
     {
-      //  footballSpeed = 300f;
+
     }
 
     void Update()
@@ -28,9 +29,8 @@ public class LaunchFootball : MonoBehaviour
            // Instantiates a new football when input is given
            // var newFootball = Instantiate(football, footballSpawn.position, footballSpawn.rotation);
 
-            football.AddForce(footballSpawn.forward * footballSpeed);
-
-            print("Touchdown!");
+            football.AddForce(footballSpawn.forward * footballSpeed, ForceMode.VelocityChange);
+            print("Shooting the shot");
         }
     }
 }

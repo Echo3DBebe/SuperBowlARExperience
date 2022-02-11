@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cheering : MonoBehaviour
+public class FieldGoalTrigger : MonoBehaviour
 {   
     [SerializeField]
     public AudioSource cheeringSource;
@@ -10,5 +10,6 @@ public class Cheering : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         cheeringSource.Play();
+        print("Touchdown!");
     }
 }

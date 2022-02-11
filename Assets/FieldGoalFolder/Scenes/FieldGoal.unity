@@ -127,6 +127,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 342945814}
     m_Modifications:
+    - target: {fileID: 2417384753324146656, guid: 135921c43a540884bab008d5941a08f3,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3834419339598828011, guid: 135921c43a540884bab008d5941a08f3,
         type: 3}
       propertyPath: m_Name
@@ -228,8 +233,8 @@ GameObject:
   - component: {fileID: 191946886}
   - component: {fileID: 191946885}
   - component: {fileID: 191946884}
-  - component: {fileID: 191946888}
   - component: {fileID: 191946887}
+  - component: {fileID: 191946888}
   m_Layer: 0
   m_Name: GoalTrigger
   m_TagString: Untagged
@@ -442,13 +447,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261120423}
-  m_LocalRotation: {x: -0.08938842, y: -0.05270629, z: -0.029836424, w: 0.99415374}
+  m_LocalRotation: {x: -0.21704933, y: -0.048410855, z: -0.0363943, w: 0.97428}
   m_LocalPosition: {x: 1.55, y: 1.18, z: -13.51}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_Children: []
   m_Father: {fileID: 282840814}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -10.4210005, y: -5.8040004, z: -2.9080002}
+  m_LocalEulerAnglesHint: {x: -25.243002, y: -4.9810004, z: -3.163}
 --- !u!1 &282840810
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,9 +638,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   footballSpawn: {fileID: 261120424}
-  football: {fileID: 2417384753324146656, guid: 135921c43a540884bab008d5941a08f3,
-    type: 3}
-  footballSpeed: 400
+  football: {fileID: 2032986818}
+  footballSpeed: 5
 --- !u!4 &325439707
 Transform:
   m_ObjectHideFlags: 0
@@ -1972,6 +1976,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882240983}
   m_CullTransparentMesh: 0
+--- !u!1 &2032986817 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3834419339598828011, guid: 135921c43a540884bab008d5941a08f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 61932828}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2032986818 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 2417384753324146656, guid: 135921c43a540884bab008d5941a08f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 61932828}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &2032986819
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032986817}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 3.06, y: 0.64, z: 0.09}
 --- !u!1 &2083744215
 GameObject:
   m_ObjectHideFlags: 0
