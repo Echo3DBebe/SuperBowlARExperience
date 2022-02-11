@@ -23,10 +23,14 @@ public class CustomBehaviour : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        // Add RemoteTransformations script to object and set its entry
-        this.gameObject.AddComponent<RemoteTransformations>().entry = entry;
 
-        // Qurey additional data to get the name
+        // Add RemoteTransformations script to object and set its entry as long as this object is not named "Football.glb"
+        if(this.gameObject.name != "football.FBX")
+         {
+            this.gameObject.AddComponent<RemoteTransformations>().entry = entry;
+         }
+
+        // Query additional data to get the name
         string value = "";
         if (entry.getAdditionalData() != null && entry.getAdditionalData().TryGetValue("name", out value))
         {
@@ -38,6 +42,9 @@ public class CustomBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (this.gameObject.name != "football.FBX" && this.gameObject.GetComponent<RemoteTransformations>().enabled == true)
+        {
+            this.gameObject.AddComponent<RemoteTransformations>().enabled = false;
+        }
     }
 }
