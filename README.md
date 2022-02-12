@@ -21,6 +21,8 @@ Tap the screen on your Android device to fire the football. Celebrate your win a
 * Clone the 'GitHub\Unity-ARFoundation-echo3D-example\arfoundationbebe' project
 * Open the 'FieldGoal' scene.
 * [Add a 3D model](https://docs.echo3d.co/quickstart/add-a-3d-model) to the cloud in the echo3D console and paste their keys under the correct “Variant” in the Hierarchy.
+![1  AddToProject](https://user-images.githubusercontent.com/99516371/153698287-599b9adc-cb6b-4501-84ca-a52cd98c82c7.png)
+![2  HierarchyVariants](https://user-images.githubusercontent.com/99516371/153698292-ea8569ec-3997-4eb5-b070-fbb594d4a584.png)
 * [Set up](https://www.youtube.com/watch?v=0mpsiO2lCx0) your Build Settings & Player Settings and export your build to your Android device.
 * (Optional) In the 'FieldGoalTrigger.cs' script, you can change the Input on lines 33 or 36 to play in Unity instead of your Android device.
 
@@ -31,9 +33,8 @@ Refer to our [documentation](https://docs.echo3d.co/) to learn more about how to
 Feel free to reach out at support@echo3D.co or join our [support channel on Slack](https://echo3d.slack.com/ssb/redirect).
 
 # Screenshots
-![](https://i.postimg.cc/63WqWnDM/Superbowl-Screenshot1.png)
-![](https://i.postimg.cc/vBrKz6Tw/Superbowl-Screenshot2.png)
-![](https://i.postimg.cc/3rZ60pzg/Superbowl-Screenshot3.png)
+![SuperbowlARCover](https://user-images.githubusercontent.com/99516371/153698319-53779e65-8b3c-4202-a20d-82a83acb4586.png)
+
 
 
 
