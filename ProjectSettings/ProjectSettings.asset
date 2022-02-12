@@ -113,7 +113,7 @@ PlayerSettings:
   switchNVNShaderPoolsGranularity: 33554432
   switchNVNDefaultPoolsGranularity: 16777216
   switchNVNOtherPoolsGranularity: 16777216
-  vulkanEnableSetSRGBWrite: 1
+  vulkanEnableSetSRGBWrite: 0
   m_SupportedAspectRatios:
     4:3: 1
     5:4: 1
@@ -166,7 +166,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.Echo3D.FieldGoal
+    Android: com.Echo3D.FieldGoalPlay
     Standalone: com.unity.arfoundation.samples
     iPhone: com.unity.arfoundation.samples
   buildNumber: {}
@@ -271,7 +271,7 @@ PlayerSettings:
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 1
+  androidUseCustomKeystore: 0
   m_AndroidBanners:
   - width: 320
     height: 180
