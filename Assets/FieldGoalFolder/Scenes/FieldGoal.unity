@@ -140,37 +140,37 @@ PrefabInstance:
     - target: {fileID: 4699465788943498424, guid: 135921c43a540884bab008d5941a08f3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.41
+      value: 4.289997
       objectReference: {fileID: 0}
     - target: {fileID: 4699465788943498424, guid: 135921c43a540884bab008d5941a08f3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.62
+      value: 1.1600004
       objectReference: {fileID: 0}
     - target: {fileID: 4699465788943498424, guid: 135921c43a540884bab008d5941a08f3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.67
+      value: 1.6699998
       objectReference: {fileID: 0}
     - target: {fileID: 4699465788943498424, guid: 135921c43a540884bab008d5941a08f3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.00000006752087
       objectReference: {fileID: 0}
     - target: {fileID: 4699465788943498424, guid: 135921c43a540884bab008d5941a08f3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.00000001408625
       objectReference: {fileID: 0}
     - target: {fileID: 4699465788943498424, guid: 135921c43a540884bab008d5941a08f3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.24188483
       objectReference: {fileID: 0}
     - target: {fileID: 4699465788943498424, guid: 135921c43a540884bab008d5941a08f3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.97030497
       objectReference: {fileID: 0}
     - target: {fileID: 4699465788943498424, guid: 135921c43a540884bab008d5941a08f3,
         type: 3}
@@ -190,7 +190,7 @@ PrefabInstance:
     - target: {fileID: 4699465788943498424, guid: 135921c43a540884bab008d5941a08f3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -27.996002
       objectReference: {fileID: 0}
     - target: {fileID: 4699465788943498424, guid: 135921c43a540884bab008d5941a08f3,
         type: 3}
@@ -327,6 +327,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aadb4a4436f82194ebc6f17dd71b4661, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  football: {fileID: 2032986818}
+  footballSpeed: 5
   cheeringSource: {fileID: 191946888}
 --- !u!82 &191946888
 AudioSource:
