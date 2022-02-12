@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class FieldGoalTrigger : MonoBehaviour
 {
-    // [SerializeField]
-    // private Transform footballSpawn;
 
     [SerializeField]
     private Rigidbody football;
@@ -29,7 +27,10 @@ public class FieldGoalTrigger : MonoBehaviour
 
     void Update()
     {
+        // To play on your Android device, comment out this Input. Hit Space bar to fire.
         // if (Input.GetKeyDown(KeyCode.Space))
+        
+        // To play on keyboard, comment out this Input. 
         if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
         {
 
