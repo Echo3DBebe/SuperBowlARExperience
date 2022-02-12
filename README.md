@@ -8,9 +8,9 @@ Don't have an API key? Make sure to register for FREE at [echo3D](https://www.ec
 * Unity 2019.4.0f1
 * [ARFoundation 3.1.0](https://www.youtube.com/watch?v=0mpsiO2lCx0)
 * ARCore XR Plugin 3.1.0
-* Android Build Support (Most updated versions)
-*    Android SDK & NDK Tools
-*    OpenJDK
+* Android Build Support (Most updated versions):
+* ...Android SDK & NDK Tools
+* ...OpenJDK
 
 # How to Play
 Tap the screen on your Android device to fire the football. Celebrate your win as the crowd goes wild!
