@@ -29,11 +29,9 @@ public class FieldGoalTrigger : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        //if (Input.touchCount > 0)
+        // if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
         {
-            // Instantiates a new football when input is given
-            // var newFootball = Instantiate(football, footballSpawn.position, footballSpawn.rotation);
 
             football.AddForce(-football.transform.right * footballSpeed, ForceMode.VelocityChange);
             print("Shooting the shot");
